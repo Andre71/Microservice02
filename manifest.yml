@@ -1,0 +1,10 @@
+---
+applications:
+- name: MicroService-02
+  memory: 512M
+  instances: 1
+  host: MicroService-02
+  path: target/MicroService-02-0.0.1-SNAPSHOT.jar
+# buildpack: java_buildpack
+#  services:
+#   - service-registry
